@@ -43,6 +43,7 @@ Think of it like using "Ctrl+Z" in a text editor:
 4. **Transaction Management**: These operations are crucial for managing transactions in SQL Developer.
 
 ## 4. Practice Exercise
+
 Try this in SQL Developer:
 1. Start a transaction
 2. Update a record
