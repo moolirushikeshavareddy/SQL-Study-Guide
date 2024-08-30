@@ -1,4 +1,4 @@
-# Study Guide: Tutorial #2 -Oracle SQL Installation
+# Study Guide: Tutorial #2 - Oracle SQL Installation
 
 ## I. Downloading Oracle 11G
 
