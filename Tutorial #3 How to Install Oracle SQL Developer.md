@@ -5,7 +5,7 @@
 SQL Developer is a graphical user interface (GUI) tool for Oracle databases. It allows you to:
 - View tables and objects
 - Perform operations on the Oracle database
-- Work in a more user-friendly environment compared to SQL*Plus (command-line interface) 
+- Work in a more user-friendly environment compared to SQLPlus (command-line interface) 
 
 ## II. Installation Process
 
@@ -30,14 +30,14 @@ SQL Developer is a graphical user interface (GUI) tool for Oracle databases. It 
    - Click on the "+" icon to create a new connection
 
 2. **Configure Connection Details**
-   - Connection Name: Choose any name (e.g., XYZ)
-   - User: Select a user (e.g., HR, SYSTEM) that was unlocked during Oracle database installation
+   - Connection Name: Choose any name (e.g., ABC)
+   - User: Select a user (e.g., HR, SYS) that was unlocked during Oracle database installation
    - Password: Enter the password for the selected user
    - Example: If using HR user, the password might be "123456" 
 
 ## IV. Key Points to Remember
 
-- SQL Developer provides a GUI alternative to SQL*Plus
+- SQL Developer provides a GUI alternative to SQLPlus
 - Ensure you have the correct version for your operating system and processor
 - JDK may be required for installation
 - You'll need valid user credentials to connect to your Oracle database
