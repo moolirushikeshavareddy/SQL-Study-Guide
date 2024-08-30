@@ -1,3 +1,5 @@
+# Study Guide: Tutorial #3 - How to Install Oracle SQL Developer
+
 1. **Introduction to SQL Developer**
 SQL Developer is introduced as a user-friendly graphical interface for managing Oracle databases. It's a great alternative to the traditional command-line SQL Plus, making database interactions more intuitive. 
 
