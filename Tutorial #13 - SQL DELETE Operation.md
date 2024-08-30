@@ -45,11 +45,9 @@ This statement will remove the row where the employee_id is 100.
 
 ## 5. Best Practices
 
-1. **Always use a WHERE clause**: Unless you intend to delete all rows, always include a WHERE clause to specify which rows to delete.
-
+[1. **Always use a WHERE clause**: Unless you intend to delete all rows, always include a WHERE clause to specify which rows to delete.
 2. **Test your DELETE statements**: Before running a DELETE statement on a production database, test it on a small subset of data or a test environment.
-
-3. **Use transactions**: Wrap your DELETE statements in transactions so you can rollback if necessary.
+3. **Use transactions**: Wrap your DELETE statements in transactions so you can rollback if necessary]: #
 
    - Always use a WHERE clause unless you intend to delete all rows.
    - Double-check your WHERE condition before executing the DELETE statement.
