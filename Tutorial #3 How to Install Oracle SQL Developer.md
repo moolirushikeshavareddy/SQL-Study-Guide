@@ -20,7 +20,5 @@ The tutorial demonstrates how to run SQL queries, like `SELECT * FROM employees`
 4. **Advantages of SQL Developer**
 The video wraps up by highlighting why SQL Developer is awesome - it's user-friendly and makes database management a breeze compared to command-line tools. 
 
-[This is perfect for SQL beginners and covers all the basics you need to get started with Oracle SQL Developer. It's part of a larger series that dives into more advanced topics too.]: #
-
-
-[Is there anything specific about the installation process or using SQL Developer that you'd like me to explain further? I'm here to help!]: #
+[This is perfect for SQL beginners and covers all the basics you need to get started with Oracle SQL Developer. It's part of a larger series that dives into more advanced topics too.
+Is there anything specific about the installation process or using SQL Developer that you'd like me to explain further? I'm here to help!]: #
