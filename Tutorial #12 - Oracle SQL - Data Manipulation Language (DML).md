@@ -17,11 +17,18 @@ There are two main syntaxes for the INSERT statement:
 
 1. **INSERT with column names and values:**
    ```sql
-   INSERT INTO table_name (column1, column2, column3, ...)
+   INSERT INTO table_name
+   COLUMN(column1, column2, column3, ...)
    VALUES (value1, value2, value3, ...);
    ```
+                                             **OR**
+   ```sql
+   INSERT INTO table_name
+   VALUES (value1, value2, value3, ...);
+   ```
+   
 
-2. **INSERT with values only (not covered in detail in the excerpts)**
+3. **INSERT with values only (not covered in detail in the excerpts)**
 
 ### 2.3 Key Points to Remember
 1. **Column Order:** The order of columns in the INSERT statement must match the order of values provided. 
@@ -31,8 +38,15 @@ There are two main syntaxes for the INSERT statement:
 3. **Data Types:** Ensure that the values you're inserting match the data types of the corresponding columns.
 
 ## 3. Example
+Example1:
 ```sql
-INSERT INTO employees (employee_id, employee_name, hire_date)
+INSERT INTO employees
+COLUMN(employee_id, employee_name, hire_date)
+VALUES (101, 'John Doe', '2023-06-15');
+```
+Example2:
+```sql
+INSERT INTO employees
 VALUES (101, 'John Doe', '2023-06-15');
 ```
 This example inserts a new record into the 'employees' table with an ID, name, and hire date. 
