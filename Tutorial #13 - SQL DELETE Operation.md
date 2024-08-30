@@ -24,7 +24,11 @@ WHERE condition;
 2. **Comparison with TRUNCATE**:
    - DELETE removes specific rows; TRUNCATE removes all rows.
    - DELETE is slower as it deletes data row by row.
-   - TRUNCATE is faster as it deletes all data at once.  
+   - TRUNCATE is faster as it deletes all data at once.
+
+3. **Execution Order: In a DELETE statement, the clauses are executed in this order:**
+   - FROM clause
+   - WHERE clause 
 
 ## 4. Example Usage
 
@@ -39,17 +43,36 @@ WHERE employee_id = 100;
 
 This statement will remove the row where the employee_id is 100. 
 
-## 5. Practice Exercises
+## 5. Best Practices
 
-1. Write a DELETE statement to remove all employees from the 'IT' department.
-2. How would you delete the oldest employee from the table?
-3. Write a DELETE statement that removes employees hired before 2010.
+1. **Always use a WHERE clause**: Unless you intend to delete all rows, always include a WHERE clause to specify which rows to delete.
 
-## 6. Best Practices
+2. **Test your DELETE statements**: Before running a DELETE statement on a production database, test it on a small subset of data or a test environment.
 
-- Always use a WHERE clause unless you intend to delete all rows.
-- Double-check your WHERE condition before executing the DELETE statement.
-- Consider using a SELECT statement with the same WHERE clause to preview which rows will be deleted.
-- Use transactions for complex delete operations to ensure data integrity.
+3. **Use transactions**: Wrap your DELETE statements in transactions so you can rollback if necessary.
 
-Remember, the DELETE operation permanently removes data from your table. Always be cautious and verify your conditions before executing a DELETE statement.
+   - Always use a WHERE clause unless you intend to delete all rows.
+   - Double-check your WHERE condition before executing the DELETE statement.
+   - Consider using a SELECT statement with the same WHERE clause to preview which rows will be deleted.
+   - Use transactions for complex delete operations to ensure data integrity.
+
+## 6. Example
+
+```sql
+DELETE FROM employees
+WHERE department_id = 10;
+```
+
+This statement will delete all employees from department 10.
+
+## 7. Practice Questions
+
+1. What is the primary purpose of the DELETE operation in SQL?
+2. How does DELETE differ from TRUNCATE?
+3. What happens if you omit the WHERE clause in a DELETE statement?
+4. In what order are the clauses in a DELETE statement executed? 
+5. Write a DELETE statement to remove all employees from the 'IT' department?
+6. How would you delete the oldest employee from the table?
+7. Write a DELETE statement that removes employees hired before 2010?
+
+Remember, the DELETE operation is powerful and can significantly affect your data (or) permanently removes data from your table. Always double-check your WHERE conditions before executing a DELETE statement.
