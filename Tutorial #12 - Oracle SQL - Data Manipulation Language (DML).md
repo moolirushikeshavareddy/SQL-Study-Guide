@@ -51,7 +51,7 @@ VALUES (101, 'John Doe', to_date('30/7/2024' 'dd/mm/yyyy');
 ```
 This example inserts a new record into the 'employees' table with an ID, name, and hire date. 
 
-##4.To_date function:
+## 4. To_date function:
 Ex:
 1.to_date('30/7/2024' 'dd/mm/yyyy');
 2.to_date('30-7-2024' 'dd-mm-yyyy');
