@@ -21,7 +21,7 @@ There are two main syntaxes for the INSERT statement:
    COLUMN(column1, column2, column3, ...)
    VALUES (value1, value2, value3, ...);
    ```
-                                             **OR**
+                                             OR
    ```sql
    INSERT INTO table_name
    VALUES (value1, value2, value3, ...);
