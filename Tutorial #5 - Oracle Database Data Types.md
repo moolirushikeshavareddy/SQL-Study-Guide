@@ -9,6 +9,8 @@ Data types are rules imposed on columns in a database to ensure data integrity a
 - **Data Validation**: Ensures only appropriate data is entered into a column.
 - **Data Consistency**: Maintains uniformity across the database.
 - **Optimization**: Helps in efficient storage and retrieval of data.
+- **Efficient Storage**: Optimizes storage space based on data type.
+- **Performance**: Improves query performance by allowing optimized indexing.
 
 ## 3. Where We Use Data Types
 
@@ -31,7 +33,7 @@ Oracle database supports various data types, which can be classified into six ma
 
 ### Special Mention: LONG Data Type
 
-- Can hold up to 2 GB of data in a single column of a row.
+- Can hold up to 2 GB of data in a single column/row/cell.
 - Supports both numbers and characters. 
 
 ## Key Points to Remember
