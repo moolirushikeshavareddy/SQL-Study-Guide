@@ -42,21 +42,35 @@ Example1:
 ```sql
 INSERT INTO employees
 COLUMN(employee_id, employee_name, hire_date)
-VALUES (101, 'John Doe', '2023-06-15');
+VALUES (101, 'John Doe', to_date('3072024' 'ddmmyyyy');
 ```
 Example2:
 ```sql
 INSERT INTO employees
-VALUES (101, 'John Doe', '2023-06-15');
+VALUES (101, 'John Doe', to_date('30/7/2024' 'dd/mm/yyyy');
 ```
 This example inserts a new record into the 'employees' table with an ID, name, and hire date. 
 
-## 4. Best Practices
+##4.To_date function:
+Ex:
+1.to_date('30/7/2024' 'dd/mm/yyyy');
+2.to_date('30-7-2024' 'dd-mm-yyyy');
+3.to_date('3072024' 'ddmmyyyy');
+4.to_date('30724' 'ddmmyy');
+				(or)
+1.'30June2024'
+2.'30June24'
+
+##NOTE:
+-'30062024'-->it is an error don't use 06 use July
+-zero(0) is the value in the database whereas null is empty in database
+
+## 5. Best Practices
 - Always specify the column names in your INSERT statement to ensure data integrity.
 - Use prepared statements or parameterized queries when inserting data from user input to prevent SQL injection.
 - Consider using batch inserts for large amounts of data to improve performance.
 
-## 5. Related Topics
+## 6. Related Topics
 - DELETE statement (for removing data)
 - UPDATE statement (for modifying existing data)
 - Data Definition Language (DDL) operations like TRUNCATE (which we covered in a previous session) 
