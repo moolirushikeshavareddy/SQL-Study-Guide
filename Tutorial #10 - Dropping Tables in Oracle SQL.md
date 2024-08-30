@@ -6,7 +6,7 @@
    - Used to remove tables or other objects (views, synonyms, sequences) from the Oracle database. 
 
 2. **Key Points to Remember:**
-   - ==DROP is irreversible== - once executed, the operation cannot be undone. 
+   - ==*DROP is irreversible*== - once executed, the operation cannot be undone. 
    - Requires careful consideration before execution.
 
 ## II. Consequences of Dropping a Table
