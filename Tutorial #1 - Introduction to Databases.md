@@ -1,4 +1,4 @@
-# Oracle SQL Study Guide
+# Study Guide: Tutorial #1 - Oracle SQL 
 
 ## 1. Introduction to Databases
 
