@@ -18,7 +18,7 @@ There are two main syntaxes for the INSERT statement:
 1. **INSERT with column names and values:**
    ```sql
    INSERT INTO table_name
-   COLUMN(column1, column2, column3, ...)
+   COLUMN (column1, column2, column3, ...)
    VALUES (value1, value2, value3, ...);
   
                                              OR
@@ -41,7 +41,7 @@ There are two main syntaxes for the INSERT statement:
 Example1:
 ```sql
 INSERT INTO employees
-COLUMN(employee_id, employee_name, hire_date)
+COLUMN (employee_id, employee_name, hire_date)
 VALUES (101, 'John Doe', to_date('3072024' 'ddmmyyyy');
 ```
 Example2:
