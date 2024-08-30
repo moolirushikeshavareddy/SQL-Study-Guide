@@ -52,16 +52,18 @@ VALUES (101, 'John Doe', to_date('30/7/2024' 'dd/mm/yyyy');
 This example inserts a new record into the 'employees' table with an ID, name, and hire date. 
 
 ## 4. To_date function:
-**Exaple:**
-1. to_date('30/7/2024' 'dd/mm/yyyy');
-2. to_date('30-7-2024' 'dd-mm-yyyy');
-3. to_date('3072024' 'ddmmyyyy');
-4. to_date('30724' 'ddmmyy');
-				(or)
+**Example:**
+ ```sql
+to_date('30/7/2024' 'dd/mm/yyyy');
+to_date('30-7-2024' 'dd-mm-yyyy');
+to_date('3072024' 'ddmmyyyy');
+to_date('30724' 'ddmmyy');
+				OR
 1.'30June2024'
 2.'30June24'
+```
 
-## NOTE:
+** NOTE: **
 - '30062024'-->it is an error don't use 06 use July
 - zero(0) is the value in the database whereas null is empty in database
 
