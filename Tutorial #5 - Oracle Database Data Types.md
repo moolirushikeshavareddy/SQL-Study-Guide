@@ -1,4 +1,4 @@
-# Study Guide: Oracle Database Data Types
+# Study Guide:  Tutorial #5 - Oracle Database Data Types
 
 ## 1. What are Data Types?
 
