@@ -20,9 +20,9 @@ There are two main syntaxes for the INSERT statement:
    INSERT INTO table_name
    COLUMN(column1, column2, column3, ...)
    VALUES (value1, value2, value3, ...);
-   ```
+  
                                              OR
-   ```sql
+  
    INSERT INTO table_name
    VALUES (value1, value2, value3, ...);
    ```
@@ -58,13 +58,15 @@ to_date('30/7/2024' 'dd/mm/yyyy');
 to_date('30-7-2024' 'dd-mm-yyyy');
 to_date('3072024' 'ddmmyyyy');
 to_date('30724' 'ddmmyy');
+
 				OR
-1.'30June2024'
-2.'30June24'
+
+'30June2024'
+'30June24'
 ```
 
-** NOTE: **
-- '30062024'-->it is an error don't use 06 use July
+**NOTE:**
+- '30062024', it is an error don't use 06 use July
 - zero(0) is the value in the database whereas null is empty in database
 
 ## 5. Best Practices
