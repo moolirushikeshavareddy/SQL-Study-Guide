@@ -57,7 +57,7 @@ CREATE TABLE example (
 
 Here, `name` can store up to 10 characters, `gender` is a single character, and `salary` can have up to 9 digits. 
 
-## 4. VARCHAR2 vs. CHAR
+## 4. VARCHAR2 vs CHAR
 
 While both VARCHAR2 and CHAR are used for storing character data, they differ in how they store data:
 
