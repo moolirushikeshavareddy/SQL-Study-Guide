@@ -48,6 +48,11 @@ This query retrieves all columns for rows where the department_id is 19.
 1. Write a SELECT statement to retrieve all data from an employee table.
 2. Write a SELECT statement to find all departments with a specific location ID.
 3. Practice combining SELECT with WHERE clause for different scenarios.
+4. Display employee id and salary for each employee
+5. Display the first_name of all the employeeswho are working in department 30
+6. Display the department details from department table
+7. Display the employee ID, first_name, salary for all employees
+8. Display the first_name of the employee who hired before 20JUNE2024
 
 ## 6. Key Takeaways
 
