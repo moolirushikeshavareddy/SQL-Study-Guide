@@ -69,5 +69,3 @@ Here are some examples of how to use these logical operators in SQL statements:
 - How do you combine multiple conditions using logical operators?
 - What is the difference between using AND and OR in a query?
 - Can you write a query that uses all three logical operators?
-
-This study guide should help you understand and apply logical operators effectively in SQL. Happy studying!
